@@ -100,7 +100,7 @@ public class Aluno {
     }
 
     public void resumoAluno() {
-        System.out.println("ID        : " + this.id);
+        System.out.println("ID aluno  : " + this.id);
         System.out.println("Nome      : " + this.nome);
         System.out.println("Escola    : " + this.getEscola().getNome());
         System.out.print("Notas     : ");
